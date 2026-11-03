@@ -1,0 +1,59 @@
+{
+  "name": "dsh-activity-heatmap",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "GitHub-style activity heatmap for DeepSeek Harness — one cell per day, with token accounting and cost estimates. · 类似 GitHub 个人主页的活动热力图：一格代表一天，记录使用强度、token 与估算费用。",
+  "license": "MIT",
+  "author": "ZhouXiaoXian233",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhouXiaoXian233/dsh-activity-heatmap.git"
+  },
+  "homepage": "https://github.com/ZhouXiaoXian233/dsh-activity-heatmap#readme",
+  "bugs": {
+    "url": "https://github.com/ZhouXiaoXian233/dsh-activity-heatmap/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "heatmap",
+    "activity",
+    "usage",
+    "cost",
+    "i18n"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.0-rc.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    },
+    "compatibility": {
+      "dsh": ">=0.2.0-rc.1",
+      "node": ">=20"
+    }
+  }
+}

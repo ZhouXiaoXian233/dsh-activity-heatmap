@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Activity Heatmap",
+    "description": "A GitHub-style calendar heatmap of your daily activity: one cell per day, shaded by how much you used DeepSeek Harness, with token totals and estimated spend for any time range."
+  }
+}

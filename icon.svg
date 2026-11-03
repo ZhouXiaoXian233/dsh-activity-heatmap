@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Activity heatmap">
+  <title>Activity heatmap</title>
+  <g>
+    <rect x="3" y="4" width="5.4" height="5.4" rx="1.3" fill="#2b2e32"/>
+    <rect x="10.2" y="4" width="5.4" height="5.4" rx="1.3" fill="#1d8a4c"/>
+    <rect x="17.4" y="4" width="5.4" height="5.4" rx="1.3" fill="#57e878"/>
+    <rect x="24.6" y="4" width="5.4" height="5.4" rx="1.3" fill="#2fc45c"/>
+
+    <rect x="3" y="11.2" width="5.4" height="5.4" rx="1.3" fill="#2fc45c"/>
+    <rect x="10.2" y="11.2" width="5.4" height="5.4" rx="1.3" fill="#12603a"/>
+    <rect x="17.4" y="11.2" width="5.4" height="5.4" rx="1.3" fill="#3a3f45"/>
+    <rect x="24.6" y="11.2" width="5.4" height="5.4" rx="1.3" fill="#1d8a4c"/>
+
+    <rect x="3" y="18.4" width="5.4" height="5.4" rx="1.3" fill="#12603a"/>
+    <rect x="10.2" y="18.4" width="5.4" height="5.4" rx="1.3" fill="#57e878"/>
+    <rect x="17.4" y="18.4" width="5.4" height="5.4" rx="1.3" fill="#2fc45c"/>
+    <rect x="24.6" y="18.4" width="5.4" height="5.4" rx="1.3" fill="#2b2e32"/>
+
+    <rect x="3" y="25.6" width="5.4" height="5.4" rx="1.3" fill="#3a3f45"/>
+    <rect x="10.2" y="25.6" width="5.4" height="5.4" rx="1.3" fill="#1d8a4c"/>
+    <rect x="17.4" y="25.6" width="5.4" height="5.4" rx="1.3" fill="#57e878"/>
+    <rect x="24.6" y="25.6" width="5.4" height="5.4" rx="1.3" fill="#2fc45c"/>
+  </g>
+</svg>

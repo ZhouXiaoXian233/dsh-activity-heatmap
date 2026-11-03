@@ -1,0 +1,8 @@
+node_modules/
+*.tgz
+.npm-cache/
+*.log
+.DS_Store
+Thumbs.db
+market-entry/
+.render-icon.py
