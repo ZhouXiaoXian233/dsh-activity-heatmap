@@ -2,6 +2,12 @@
 
 给 DeepSeek Harness 加一张类似 GitHub 个人主页的日历热力图：**一格 = 一天**，颜色深浅表示当天使用了多少；同时统计 token 消耗并给出估算金额。
 
+## 效果预览
+
+| 深色主题 | 浅色主题 |
+| --- | --- |
+| ![深色主题下的活动热力图](assets/heatmap_dark_background_style.png) | ![浅色主题下的活动热力图](assets/heatmap_light_background_style.png) |
+
 ## 安装
 
 - **插件市场**：在 DSH 的插件市场里搜索 `dsh-activity-heatmap`（或「活动热力图」），一键安装。
