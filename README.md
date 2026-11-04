@@ -57,3 +57,7 @@
   }
 }
 ```
+
+## 变更记录
+
+各版本的改动见 [CHANGELOG.md](CHANGELOG.md)。
